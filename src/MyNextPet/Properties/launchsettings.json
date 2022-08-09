@@ -1,10 +1,15 @@
-﻿{
-    "profiles": {
-      "MyNews (Package)": {
-        "commandName": "MsixPackage"
-      },
-      "MyNews (Unpackaged)": {
-        "commandName": "Project"
-      }
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    },
+    "MyNextPet (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MyNextPet (Unpackaged)": {
+      "commandName": "Project"
     }
+  }
 }
